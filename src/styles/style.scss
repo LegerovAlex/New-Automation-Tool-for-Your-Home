@@ -1,3 +1,76 @@
-.start {
-  background-color: rgb(14, 109, 198);
+.header {
+  padding: 40px 10px 0 10px;
+  .header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.tool {
+  background: linear-gradient(
+    0deg,
+    #98c3e8 8.84%,
+    rgba(152, 195, 232, 0) 31.12%
+  );
+
+  padding: 100px 10px 190px 10px;
+
+  .container__represent {
+    max-width: 1130px;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  .represent-items {
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+      font-family: "Montagu Slab", serif;
+      font-size: 50px;
+      line-height: 74px;
+      color: #1f3f68;
+      margin-bottom: 32px;
+      max-width: 510px;
+    }
+
+    &__subtitle {
+      font-family: "Urbanist", sans-serif;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #1f3f68;
+      opacity: 0.6;
+      margin-bottom: 71px;
+      max-width: 425px;
+    }
+
+    &-buttons {
+      .represent-items__button {
+        padding: 15px 48px;
+        background: #5a98d0;
+        box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+        border-radius: 10px;
+        font-family: "Gilroy";
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        font-family: "Urbanist", sans-serif;
+      }
+    }
+  }
+  .represent-img {
+    position: relative;
+
+    img {
+      position: absolute;
+      top: -62px;
+      left: -64px;
+    }
+  }
 }
