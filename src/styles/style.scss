@@ -9,7 +9,7 @@
   }
 }
 
-.tool {
+.section-tool {
   background: linear-gradient(
     0deg,
     #98c3e8 8.84%,
@@ -18,7 +18,7 @@
 
   padding: 100px 10px 190px 10px;
 
-  .container__represent {
+  .container-represent {
     max-width: 1130px;
     margin: 0 auto;
     display: flex;
@@ -72,5 +72,239 @@
       top: -62px;
       left: -64px;
     }
+  }
+}
+
+.section-what-we-do {
+  padding: 180px 0 100px 0;
+  .container {
+    max-width: 940px;
+    margin: 0 auto;
+    font-family: "Urbanist", sans-serif;
+  }
+
+  .container-features {
+    display: grid;
+    grid-template-areas:
+      "  title technology "
+      " business technology"
+      "business digital"
+      "  . digital";
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .features__title {
+      grid-area: title;
+    }
+    .features-items_business {
+      grid-area: business;
+    }
+    .features-items_technology {
+      grid-area: technology;
+    }
+
+    .features-items_digital {
+      grid-area: digital;
+    }
+  }
+
+  .features__title {
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #316099;
+    max-width: 359px;
+  }
+
+  .features-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 380px;
+    padding: 48px 0px;
+    background: #ffffff;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+
+    &-description {
+      max-width: 274px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    &-img {
+      margin-bottom: 50px;
+    }
+    &__title {
+      font-size: 20px;
+      line-height: 30px;
+      letter-spacing: 0.05em;
+      color: #1f3f68;
+      margin-bottom: 16px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #1f3f68;
+      opacity: 0.6;
+      margin-bottom: 32px;
+    }
+
+    &-preview {
+      display: flex;
+      gap: 28px;
+
+      span {
+        font-size: 14px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #5a98d0;
+      }
+    }
+  }
+}
+
+.section-projects {
+  padding: 92px 10px 192px 10px;
+
+  .container-products {
+    max-width: 940px;
+    margin: 0 auto;
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .products-description {
+    display: flex;
+    gap: 93px;
+    margin-bottom: 96px;
+
+    &__title {
+      max-width: 227px;
+      font-size: 36px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+      color: #1f3f68;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: 0.05em;
+      color: #1f3f68;
+      opacity: 0.6;
+      max-width: 540px;
+    }
+  }
+  .products-home {
+    padding: 48px 49px 0 0;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background: url(/src/assets/img/project/smart-home.jpg);
+    margin-bottom: 96px;
+    border-radius: 10px;
+
+    &-description {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 8px;
+    }
+
+    &__title {
+      position: relative;
+      z-index: 82;
+      font-size: 28px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+    }
+
+    &__subtitle {
+      position: relative;
+      z-index: 81;
+      font-size: 16px;
+      line-height: 46px;
+      letter-spacing: 0.05em;
+      color: #ffffff;
+      opacity: 0.8;
+    }
+
+    &-img {
+      position: relative;
+      z-index: 83;
+    }
+  }
+  .products-home::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(
+      89.99deg,
+      #1f3f68 3.62%,
+      rgba(31, 63, 104, 0.37) 97.78%
+    );
+    opacity: 0.9;
+    z-index: 1;
+    border-radius: 10px;
+  }
+  .products-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &-app {
+      position: relative;
+      min-width: 422px;
+      min-height: 417px;
+      padding: 24px 0 0 32px;
+      background: no-repeat url(/src/assets/img/project/phone-app.jpg);
+      border-radius: 10px;
+
+      &__title {
+        position: relative;
+        z-index: 85;
+        font-size: 28px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        margin-bottom: 4px;
+      }
+      &__subtitle {
+        position: relative;
+        z-index: 85;
+        font-size: 16px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        opacity: 0.8;
+      }
+    }
+  }
+  .products-items-app::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+    background-image: linear-gradient(
+      308.85deg,
+      rgba(66, 165, 245, 0.4) -1.71%,
+      rgba(21, 101, 192, 0.6) 74.54%
+    );
+    border-radius: 10px;
+    z-index: 55;
   }
 }
