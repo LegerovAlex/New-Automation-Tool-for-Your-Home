@@ -1,0 +1,36 @@
+@font-face {
+  font-family: GilroyRegular;
+  src: url("Gilroy-Regular.3248bb98.woff2") format("woff2"), url("Gilroy-Regular.d26b8b48.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GilroyMedium;
+  src: url("Gilroy-Medium.46643076.woff2") format("woff2"), url("Gilroy-Medium.31d64bb2.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GilroySemiBold;
+  src: url("Gilroy-SemiBold.67675e7c.woff2") format("woff2"), url("Gilroy-SemiBold.d8b4e4a7.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GilroyBold;
+  src: url("Gilroy-Bold.65592a39.woff2") format("woff2"), url("Gilroy-Bold.d1434812.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GalienBold;
+  src: url("Galien-Bold.374d7afd.woff2") format("woff2"), url("Galien-Bold.ef84cfbc.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=index.9dd38146.css.map */
