@@ -301,4 +301,131 @@
   left: 0;
 }
 
+.section-client {
+  background: #5a98d0;
+  border-radius: 200px 0 0;
+  padding: 96px 10px 125px 30px;
+}
+
+.section-client .container-client {
+  max-width: 940px;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: Urbanist, sans-serif;
+  display: flex;
+}
+
+.section-client .client-description {
+  gap: 97px;
+  margin-bottom: 111px;
+  display: flex;
+}
+
+.section-client .client-description__title {
+  letter-spacing: .05em;
+  color: #fff;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.section-client .client-description__text {
+  letter-spacing: .05em;
+  color: #fff;
+  opacity: .6;
+  max-width: 540px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section-client .client-list {
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  display: flex;
+}
+
+.section-client .client-list-item {
+  min-width: 235px;
+  min-height: 128px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.section-client .client-list-item__name {
+  letter-spacing: .02em;
+  color: #f2f2f2;
+  font-size: 20px;
+  line-height: 46px;
+}
+
+.section-client .client-list .client-list-item:nth-child(n+5) {
+  border-top: 1px solid #fff;
+}
+
+.section-client .client-list .client-list-item:nth-child(4n+1), .section-client .client-list .client-list-item:nth-child(4n+2), .section-client .client-list .client-list-item:nth-child(4n+3) {
+  border-right: 1px solid #fff;
+}
+
+.section-client .client-list .client-list-item:nth-last-child(1) {
+  background: #0003;
+  border-right: #0000;
+}
+
+.section-client .section-join {
+  background: #316099;
+  border-radius: 0 200px 0 0;
+  padding: 90px 0 96px;
+}
+
+.section-client .section-join .container-join {
+  max-width: 940px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  font-family: Urbanist, sans-serif;
+  display: flex;
+}
+
+.section-client .section-join .join-description {
+  flex-direction: column;
+  gap: 32px;
+  display: flex;
+}
+
+.section-client .section-join .join-description__title {
+  letter-spacing: .05em;
+  color: #fff;
+  max-width: 317px;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.section-client .section-join .join-description__text {
+  letter-spacing: .05em;
+  color: #fff;
+  opacity: .6;
+  max-width: 460px;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section-client .section-join .join-buttons .join__button {
+  text-align: center;
+  letter-spacing: .04em;
+  color: #fff;
+  background: #5a98d0;
+  border-radius: 10px;
+  padding: 15px 75px;
+  font-family: Urbanist, sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section-client .separator {
+  max-width: 1250px;
+  opacity: .4;
+  background: #f2f2f2;
+  border: 1px solid #fff;
+}
+
 /*# sourceMappingURL=index.38ec9247.css.map */

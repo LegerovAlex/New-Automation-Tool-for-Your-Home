@@ -1,0 +1,14 @@
+@mixin nth-child__border {
+  .client-list-item:nth-child(n + 5) {
+    border-top: 1px solid #ffffff;
+  }
+  .client-list-item:nth-child(4n + 1) {
+    border-right: 1px solid #ffffff;
+  }
+  .client-list-item:nth-child(4n + 2) {
+    border-right: 1px solid #ffffff;
+  }
+  .client-list-item:nth-child(4n + 3) {
+    border-right: 1px solid #ffffff;
+  }
+}
