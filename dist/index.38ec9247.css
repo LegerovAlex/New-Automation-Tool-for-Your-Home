@@ -304,7 +304,7 @@
 .section-client {
   background: #5a98d0;
   border-radius: 200px 0 0;
-  padding: 96px 10px 125px 30px;
+  padding: 96px 0 0;
 }
 
 .section-client .container-client {
@@ -374,7 +374,8 @@
 .section-client .section-join {
   background: #316099;
   border-radius: 0 200px 0 0;
-  padding: 90px 0 96px;
+  margin-right: 96px;
+  padding: 90px 0 0;
 }
 
 .section-client .section-join .container-join {
@@ -421,11 +422,102 @@
   line-height: 26px;
 }
 
-.section-client .separator {
-  max-width: 1250px;
-  opacity: .4;
-  background: #f2f2f2;
-  border: 1px solid #fff;
+.section-client .footer {
+  background: #316099;
+  margin-right: 96px;
+  padding: 90px 0 96px;
+}
+
+.section-client .footer hr {
+  margin-bottom: 96px;
+}
+
+.section-client .footer .footer-container {
+  max-width: 940px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  font-family: Urbanist, sans-serif;
+  display: flex;
+}
+
+.section-client .footer .footer-contacts {
+  flex-direction: column;
+  display: flex;
+}
+
+.section-client .footer .footer-contacts-logo {
+  gap: 16px;
+  margin-bottom: 33px;
+  display: flex;
+}
+
+.section-client .footer .footer-contacts-logo__name {
+  letter-spacing: .02em;
+  color: #fff;
+  font-size: 28px;
+  line-height: 46px;
+}
+
+.section-client .footer .footer-contacts-items {
+  max-width: 264px;
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.section-client .footer .footer-contacts-item {
+  gap: 16px;
+  display: flex;
+}
+
+.section-client .footer .footer-contacts-item__text {
+  letter-spacing: .05em;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section-client .footer .footer-nav {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.section-client .footer .footer-nav__title {
+  letter-spacing: .05em;
+  color: #fff;
+  margin-bottom: 17px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section-client .footer .footer-nav__text {
+  letter-spacing: .05em;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.section-client .footer .footer-social {
+  flex-direction: column;
+  gap: 16px;
+  display: flex;
+}
+
+.section-client .footer .footer-social__title {
+  letter-spacing: .05em;
+  color: #fff;
+  margin-bottom: 17px;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section-client .footer .footer-social__text {
+  letter-spacing: .05em;
+  color: #fff;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 /*# sourceMappingURL=index.38ec9247.css.map */

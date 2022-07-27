@@ -314,7 +314,8 @@
 .section-client {
   background: #5a98d0;
   border-radius: 200px 0px 0px 0px;
-  padding: 96px 10px 125px 30px;
+  padding: 96px 0 0 0;
+
   .container-client {
     max-width: 940px;
     margin: 0 auto;
@@ -373,7 +374,8 @@
   .section-join {
     background: #316099;
     border-radius: 0px 200px 0px 0px;
-    padding: 90px 0 96px 0;
+    padding: 90px 0 0px 0;
+    margin-right: 96px;
 
     .container-join {
       max-width: 940px;
@@ -387,7 +389,6 @@
       display: flex;
       flex-direction: column;
       gap: 32px;
-      // margin-bottom: 96px;
 
       &__title {
         font-size: 36px;
@@ -420,11 +421,97 @@
       }
     }
   }
-  .separator {
-    max-width: 1250px;
-    background: #f2f2f2;
-    opacity: 0.4;
-    border: 1px solid #ffffff;
+
+  // Footer start
+  .footer {
+    background: #316099;
+    padding: 90px 0 96px 0;
+    margin-right: 96px;
+
+    hr {
+      margin-bottom: 96px;
+    }
+
+    .footer-container {
+      max-width: 940px;
+      margin: 0 auto;
+      display: flex;
+      font-family: "Urbanist", sans-serif;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .footer-contacts {
+      display: flex;
+      flex-direction: column;
+      &-logo {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 33px;
+
+        &__name {
+          font-size: 28px;
+          line-height: 46px;
+          letter-spacing: 0.02em;
+          color: #ffffff;
+        }
+      }
+      &-items {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        max-width: 264px;
+      }
+      &-item {
+        display: flex;
+        gap: 16px;
+
+        &__text {
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 0.05em;
+          color: #ffffff;
+        }
+      }
+    }
+    .footer-nav {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      &__title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        margin-bottom: 17px;
+      }
+      &__text {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+      }
+    }
+    .footer-social {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      &__title {
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+        margin-bottom: 17px;
+      }
+
+      &__text {
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #ffffff;
+      }
+    }
   }
-  // Fotter start
 }
