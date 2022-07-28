@@ -521,7 +521,7 @@
 .section-client .footer {
   background: #316099;
   margin-right: 96px;
-  padding: 90px 10px 96px;
+  padding: 90px 0 96px;
 }
 
 .section-client .footer hr {
@@ -529,7 +529,6 @@
 }
 
 .section-client .footer .footer-container {
-  flex-wrap: wrap;
   justify-content: flex-start;
   gap: 100px;
   display: flex;
@@ -579,6 +578,7 @@
 .section-client .footer .footer-contacts-item__text {
   letter-spacing: .05em;
   color: #fff;
+  opacity: .8;
   font-family: GilroyRegular;
   font-size: 16px;
   line-height: 26px;
@@ -602,6 +602,7 @@
 .section-client .footer .footer-nav__text {
   letter-spacing: .05em;
   color: #fff;
+  opacity: .8;
   font-family: GilroyRegular;
   font-size: 16px;
   line-height: 26px;
@@ -625,6 +626,7 @@
 .section-client .footer .footer-social__text {
   letter-spacing: .05em;
   color: #fff;
+  opacity: .8;
   font-family: GilroyRegular;
   font-size: 16px;
   line-height: 26px;
